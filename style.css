@@ -33,10 +33,10 @@ ul {
   }
   .slide {
       background-image: url("Layer 1.png");
-      opacity: 0.5;
       overflow: hidden;
       width: 100%;
       height: 1017px;
+      opacity: 0.8
   }
   .place {
     position: absolute;
@@ -129,7 +129,7 @@ ul {
   }
 .section4 {
     background-image: url("Layer 20.png");
-    opacity: 0.5;
+    opacity: 0.8;
     width: 100%;
     height: 600px;
 }
