@@ -1,0 +1,156 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    float: right;
+    margin-top: 6px;
+  }
+  
+  .slide ul li a:hover {
+    border: 1px solid red !important;
+  }
+  .logo {
+      margin-left: 10px;
+      margin-top: 12px;
+  }
+  body{
+    background-color: #42363A;
+    margin: 0px;
+  }
+  .slide {
+      background-image: url("Layer 1.png");
+      opacity: 0.5;
+      overflow: hidden;
+      width: 100%;
+      height: 1017px;
+  }
+  .place {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 135px;
+    color: white;
+    font-size: 46px;
+  }
+  h2{
+    border: 1px solid white !important;
+    padding-right: 0px;
+    font-family: Bebas Neue;
+  }
+
+.section2 {
+    padding-left: 300px;
+
+
+}
+
+.sec2{
+    color: white;
+    font-family: Bebas Neue;
+    font-size: 30px;
+}
+#menu {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#simple{
+    background-image: url("Layer 6.png");
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+}
+#FRESH{
+    background-image: url("Layer 7.png");
+    width: 250px;
+    height: 400px;
+    margin-right: 5px;
+}
+#INDULGENT{
+    background-image: url("Layer 8.png");
+    width: 250px;
+    height: 400px;
+}
+.menu {
+    color: white;
+    font-family: Bebas Neue;
+    margin-top: 78px;
+    font-size: 8px;
+    padding: 5px;
+    margin-left: -73px;
+}
+.titre {
+    color: white;
+    font-family: Bebas Neue;  
+    margin-top: 0px;
+    margin-left: 7px;
+    font-size: 34px;
+}
+#inner1 {
+    width: 144px;
+    margin: 0 auto;
+    height: 144px;
+    background-color: #AA6327;
+    display: flex;
+    align-items: center;
+    margin-top: 50%;
+  }
+  #inner2 {
+    width: 144px;
+    margin: 0 auto;
+    height: 144px;
+    background-color: #84993B;
+    display: flex;
+    align-items: center;
+    margin-top: 50%;
+  }
+  #inner3 {
+    width: 144px;
+    margin: 0 auto;
+    height: 144px;
+    background-color: #D24F4B;
+    display: flex;
+    align-items: center;
+    margin-top: 50%;
+  }
+.section4 {
+    background-image: url("Layer 20.png");
+    opacity: 0.5;
+    width: 100%;
+    height: 600px;
+}
+.locally {
+   margin-left: 400px;
+   margin-right: 490px;
+   margin-top: -60px;
+}
+h1 {
+    font-size: 20px;
+    color: white;
+    font-family: Bebas Neue;
+}
+.values {
+    margin-left: 392px;
+    font-size: 100px;
+}
+.caré {
+    color: white;
+}
+.paragraphe {
+    color: white;
+}
+
