@@ -1,156 +1,297 @@
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-    
-  }
-  
-  li {
-    float: right;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    float: right;
-    margin-top: 6px;
-  }
-  
-  .slide ul li a:hover {
-    border: 1px solid red !important;
-  }
-  .logo {
-      margin-left: 10px;
-      margin-top: 12px;
-  }
-  body{
-    background-color: #42363A;
-    margin: 0px;
-  }
-  .slide {
-      background-image: url("Layer 1.png");
-      overflow: hidden;
-      width: 100%;
-      height: 1017px;
-      opacity: 0.8
-  }
-  .place {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 135px;
-    color: white;
-    font-size: 46px;
-  }
-  h2{
-    border: 1px solid white !important;
-    padding-right: 0px;
-    font-family: Bebas Neue;
-  }
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  float: right;
+  margin-top: 6px;
+}
+
+.slide ul li a:hover {
+  border: 1px solid red !important;
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 12px;
+}
+
+body {
+  background-color: #42363A;
+  margin: 0px;
+  padding: 0px;
+}
+
+.slide {
+  background-image: url("Layer 1.png");
+  overflow: hidden;
+  width: 100%;
+  height: 1017px;
+  opacity: 0.8
+}
+
+.place {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 135px;
+  color: white;
+  font-size: 46px;
+}
+
+h2 {
+  border: 1px solid white !important;
+  padding-right: 0px;
+  font-family: Bebas Neue;
+}
 
 .section2 {
-    padding-left: 300px;
+  padding-left: 300px;
 
 
 }
 
-.sec2{
-    color: white;
-    font-family: Bebas Neue;
-    font-size: 30px;
+.sec2 {
+  color: white;
+  font-family: Bebas Neue;
+  font-size: 30px;
 }
+
 #menu {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-}
-#simple{
-    background-image: url("Layer 6.png");
-    width: 250px;
-    height: 400px;
-    margin-right: 5px;
-}
-#FRESH{
-    background-image: url("Layer 7.png");
-    width: 250px;
-    height: 400px;
-    margin-right: 5px;
-}
-#INDULGENT{
-    background-image: url("Layer 8.png");
-    width: 250px;
-    height: 400px;
-}
-.menu {
-    color: white;
-    font-family: Bebas Neue;
-    margin-top: 78px;
-    font-size: 8px;
-    padding: 5px;
-    margin-left: -73px;
-}
-.titre {
-    color: white;
-    font-family: Bebas Neue;  
-    margin-top: 0px;
-    margin-left: 7px;
-    font-size: 34px;
-}
-#inner1 {
-    width: 144px;
-    margin: 0 auto;
-    height: 144px;
-    background-color: #AA6327;
-    display: flex;
-    align-items: center;
-    margin-top: 50%;
-  }
-  #inner2 {
-    width: 144px;
-    margin: 0 auto;
-    height: 144px;
-    background-color: #84993B;
-    display: flex;
-    align-items: center;
-    margin-top: 50%;
-  }
-  #inner3 {
-    width: 144px;
-    margin: 0 auto;
-    height: 144px;
-    background-color: #D24F4B;
-    display: flex;
-    align-items: center;
-    margin-top: 50%;
-  }
-.section4 {
-    background-image: url("Layer 20.png");
-    opacity: 0.8;
-    width: 100%;
-    height: 600px;
-}
-.locally {
-   margin-left: 400px;
-   margin-right: 490px;
-   margin-top: -60px;
-}
-h1 {
-    font-size: 20px;
-    color: white;
-    font-family: Bebas Neue;
-}
-.values {
-    margin-left: 392px;
-    font-size: 100px;
-}
-.caré {
-    color: white;
-}
-.paragraphe {
-    color: white;
+  display: flex;
+  align-items: center;
+  margin: 10px;
 }
 
+#simple {
+  background-image: url("Layer 6.png");
+  width: 250px;
+  height: 400px;
+  margin-right: 5px;
+}
+
+#FRESH {
+  background-image: url("Layer 7.png");
+  width: 250px;
+  height: 400px;
+  margin-right: 5px;
+}
+
+#INDULGENT {
+  background-image: url("Layer 8.png");
+  width: 250px;
+  height: 400px;
+}
+
+.menu {
+  color: white;
+  font-family: Bebas Neue;
+  margin-top: 78px;
+  font-size: 8px;
+  padding: 5px;
+  margin-left: -73px;
+}
+
+.titre {
+  color: white;
+  font-family: Bebas Neue;
+  margin-top: 0px;
+  margin-left: 7px;
+  font-size: 34px;
+}
+
+#inner1 {
+  width: 144px;
+  margin: 0 auto;
+  height: 144px;
+  background-color: #AA6327;
+  display: flex;
+  align-items: center;
+  margin-top: 50%;
+}
+
+#inner2 {
+  width: 144px;
+  margin: 0 auto;
+  height: 144px;
+  background-color: #84993B;
+  display: flex;
+  align-items: center;
+  margin-top: 50%;
+}
+
+#inner3 {
+  width: 144px;
+  margin: 0 auto;
+  height: 144px;
+  background-color: #D24F4B;
+  display: flex;
+  align-items: center;
+  margin-top: 50%;
+}
+
+.section3 {
+  background-image: url(Layer12.png);
+  height: 1018px;
+}
+
+.div1 {
+  background: rgba(57, 45, 59, 0.7);
+  width: 100%;
+  height: 1018px;
+  display: flex;
+}
+
+.div2 {
+  width: 50%;
+  color: white;
+}
+
+.div3 {
+  float: right;
+  margin-top: 60px;
+}
+
+.div4 {
+  float: right;
+  width: 60%;
+}
+
+.our {
+  font-size: 34px;
+  font-family: sans-serif;
+}
+
+.div5 {
+  width: 60%;
+
+}
+
+.div6 {
+  display: flex;
+  border-bottom: 3px white solid;
+  width: 60%;
+  padding-bottom: 20px;
+}
+
+.layer13 {
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.div7 {
+  margin-left: 20px;
+}
+
+.lay {
+  margin-top: 60px;
+}
+
+.div8 {
+  margin-top: 4%;
+}
+
+.div9 {
+  margin-top: 90px;
+}
+
+.section4 {
+  background-image: url("Layer 20.png");
+  opacity: 0.8;
+  width: 100%;
+  height: 600px;
+  margin-top: -69px;
+}
+
+.locally {
+  margin-left: 400px;
+  margin-right: 490px;
+  margin-top: -60px;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+  font-family: Bebas Neue;
+}
+
+.values {
+  margin-left: 392px;
+  font-size: 100px;
+}
+
+.caré {
+  color: white;
+}
+
+.paragraphe {
+  color: white;
+}
+
+.come {
+  color: white;
+  text-align: center;
+  width: 28%;
+  margin-left: 490px;
+}
+
+.come h5 {
+  font-family: Bebas Neue;
+  font-size: 30px;
+}
+
+.come .pa1 {
+  font-family: lato;
+  font-size: 12px;
+}
+
+.come .pa2 {
+  font-family: lato;
+  font-size: 14px;
+}
+
+.maps {
+  background-image: url("Layer 22.png");
+  height: 548px;
+
+
+}
+
+.maps .rec {
+  text-align: center;
+  margin-top: -304px;
+  color: green;
+  font-size: 46px;
+}
+
+.ourplace {
+  background-color: #DC5352;
+  width: 100%;
+  height: 300px;
+}
+
+.ourplace a {
+  margin-top: 148px;
+  margin-right: 60px;
+}
+
+.placee {
+  margin-top: 90px;
+  border: 1px solid white;
+  color: white;
+  font-size: 40px;
+  margin-right: 35px;
+}
